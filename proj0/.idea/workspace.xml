@@ -4,13 +4,6 @@
     <list default="true" id="17a84922-cf43-4d15-8fa8-6c7dfdcd1577" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/NBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBody.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/StdDraw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/StdDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/StdDraw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/StdDrawDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/StdDrawDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/StdDrawDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/StdOut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/StdOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/StdOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/StdRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/StdRandom.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +30,7 @@
           <entry key="class" value="1" />
           <entry key="java" value="29" />
           <entry key="jpg" value="1" />
-          <entry key="txt" value="7" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -45,40 +38,41 @@
           <entry key="CLASS" value="1" />
           <entry key="Image" value="1" />
           <entry key="JAVA" value="29" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2084" />
+          <entry key="java" value="2367" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2084" />
+          <entry key="JAVA" value="2367" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Planet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+            <state relative-caret-position="356">
+              <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
               <folding>
+                <element signature="e#2618#2619#0" expanded="true" />
                 <element signature="e#2703#2704#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NBody.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            <state relative-caret-position="570">
+              <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -155,8 +149,8 @@
         <option value="$PROJECT_DIR$/StdDraw.java" />
         <option value="$PROJECT_DIR$/In.java" />
         <option value="$PROJECT_DIR$/StdDrawDemo.java" />
-        <option value="$PROJECT_DIR$/Planet.java" />
         <option value="$PROJECT_DIR$/NBody.java" />
+        <option value="$PROJECT_DIR$/Planet.java" />
       </list>
     </option>
   </component>
@@ -206,7 +200,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546483082680" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546485162509" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -289,12 +283,12 @@
       <option name="presentableId" value="Default" />
       <updated>1546446794274</updated>
       <workItem from="1546446795482" duration="8738000" />
-      <workItem from="1546479402351" duration="3629000" />
+      <workItem from="1546479402351" duration="5612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12367000" />
+    <option name="totallyTimeSpent" value="14350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -434,9 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/3body.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/8star-rotation.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -488,20 +479,24 @@
     <entry file="file://$PROJECT_DIR$/images/starfield.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Planet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
-          <folding>
-            <element signature="e#2703#2704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/data/3body.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/NBody.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        <state relative-caret-position="570">
+          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Planet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
+          <folding>
+            <element signature="e#2618#2619#0" expanded="true" />
+            <element signature="e#2703#2704#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

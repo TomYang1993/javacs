@@ -19,7 +19,7 @@ public class NBody {
         in.readDouble();
         int i = 0;
         while(!in.isEmpty()){
-            if(i == 5) break;
+            if(i == universeSize) break;
             planets[i].xxPos = in.readDouble();
             planets[i].yyPos = in.readDouble();
             planets[i].xxVel = in.readDouble();
@@ -39,28 +39,48 @@ public class NBody {
         double radius = readRadius(filename);
         Planet[] planets = readPlanets(filename);
 
-        for (Planet p : planets) {
-            System.out.println("Advice: " + p.xxPos + p.xxVel + p.yyPos + p.yyVel + p.mass + p.imgFileName);
-        }
+//        for (Planet p : planets) {
+//            System.out.println("Advice: " + p.xxPos + p.xxVel + p.yyPos + p.yyVel + p.mass + p.imgFileName);
+//        }
 
         StdDraw.setScale(-radius, radius);
 
-        /* Clears the drawing window. */
-        StdDraw.clear();
+        double timer = 0.0;
 
-        /* Stamps three copies of advice.png in a triangular pattern. */
-        StdDraw.picture(0, 0, starField);
+        while(timer < T){
+            double[] forceX = new double[planets.length];
+            double[] forceY = new double[planets.length];
 
+            for (int i = 0; i < planets.length; i++) {
+                forceX[i] = planets[i].calcNetForceExertedByX(planets);
+                forceY[i] = planets[i].calcNetForceExertedByY(planets);
+            }
 
-        /* Shows the drawing to the screen, and waits 2000 milliseconds. */
-        StdDraw.show();
-        StdDraw.pause(2000);
+            for (int i = 0; i < planets.length; i++) {
+                planets[i].update(dt, forceX[i], forceY[i]);
+            }
 
-        for (Planet p : planets) {
-            p.draw();
+            StdDraw.picture(0, 0, starField);
+
+            for (Planet p : planets) {
+                p.draw();
+            }
+
+            StdDraw.show();
+            StdDraw.pause(40);
+
+            StdDraw.clear();
+
+            timer = timer + dt;
         }
-        
 
+        StdOut.printf("%d\n", planets.length);
+        StdOut.printf("%.2e\n", radius);
+        for (int i = 0; i < planets.length; i++) {
+            StdOut.printf("%11.4e %11.4e %11.4e %11.4e %11.4e %12s\n",
+                    planets[i].xxPos, planets[i].yyPos, planets[i].xxVel,
+                    planets[i].yyVel, planets[i].mass, planets[i].imgFileName);
+        }
 
     }
 }
