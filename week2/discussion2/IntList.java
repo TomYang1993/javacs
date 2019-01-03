@@ -1,6 +1,29 @@
 public class IntList{
 
 
+	/** from lecture4 guide, (2.2) */
+	public void addSquare(int x){
+		IntList p = this;
+		// while(p.next != null){
+		// 	p.next = new IntList(p.first, p.next);
+		// 	p = p.next;
+		// 	p = p.next;
+		// }
+		// p.next = new IntList(p.first, p.next);
+		// p.next.next = new IntList(x, null);
+
+		/** */
+		int size = this.size();
+		for(int i = 0; i < size; i++){
+			p.next = new IntList(p.first, p.next);
+			/** without sentinel node, speicial ede cases */
+			if(i == (size - 1)) break;
+			p = p.next.next;
+		}
+		p.next.next = new IntList(x, null);
+	}
+
+
 	public static IntList incrList(IntList L, int x) {
 
 		if(L == null){
@@ -151,55 +174,77 @@ public class IntList{
 		// a.next.first = 5;
 		// a.next.next = new IntList();
 
+
+		// IntList a = new IntList(4,null);
+		// a = new IntList(5, a);
+		// a = new IntList(7, a);
+		// System.out.println(a.size());
+
+		// System.out.println(IntList.square(a).first);
+		// System.out.println(IntList.square(a).next.first);
+		// System.out.println(IntList.square(a).next.next.first);
+
+		// IntList.squareMutative(a);
+		// System.out.println(a.first);
+		// System.out.println(a.next.first);
+		// System.out.println(a.next.next.first);
+
+		// a = new IntList(4,null);
+		// a = new IntList(5, a);
+		// a = new IntList(7, a);
+
+		// IntList.newsquareMutative(a);
+		// System.out.println(a.first);
+		// System.out.println(a.next.first);
+		// System.out.println(a.next.next.first);
+
+		// a = new IntList(4,null);
+		// a = new IntList(5, a);
+		// a = new IntList(7, a);
+
+		// IntList.newsquare(a);
+		// System.out.println(IntList.square(a).first);
+		// System.out.println(IntList.square(a).next.first);
+		// System.out.println(IntList.square(a).next.next.first);
+
+		// System.out.println(IntList.incrList(a, 3).first);
+		// System.out.println(IntList.incrList(a, 3).next.first);
+		// System.out.println(IntList.incrList(a, 3).next.next.first);
+
+		// a = new IntList(4,null);
+		// a = new IntList(5, a);
+		// a = new IntList(7, a);
+		// IntList.decrList(a, 4);
+		// System.out.println(a.first);
+		// System.out.println(a.next.first);
+		// System.out.println(a.next.next.first);
+
+		// a = new IntList(4,null);
+		// a.addFirst(5);
+		// a.addFirst(8);
+		// System.out.println(a.first);
+		// System.out.println(a.next.first);
+		// System.out.println(a.next.next.first);
+
 		IntList a = new IntList(4,null);
-		a = new IntList(5, a);
-		a = new IntList(7, a);
-		System.out.println(a.size());
-
-		System.out.println(IntList.square(a).first);
-		System.out.println(IntList.square(a).next.first);
-		System.out.println(IntList.square(a).next.next.first);
-
-		IntList.squareMutative(a);
-		System.out.println(a.first);
-		System.out.println(a.next.first);
-		System.out.println(a.next.next.first);
-
-		a = new IntList(4,null);
-		a = new IntList(5, a);
-		a = new IntList(7, a);
-
-		IntList.newsquareMutative(a);
-		System.out.println(a.first);
-		System.out.println(a.next.first);
-		System.out.println(a.next.next.first);
-
-		a = new IntList(4,null);
-		a = new IntList(5, a);
-		a = new IntList(7, a);
-
-		IntList.newsquare(a);
-		System.out.println(IntList.square(a).first);
-		System.out.println(IntList.square(a).next.first);
-		System.out.println(IntList.square(a).next.next.first);
-
-		System.out.println(IntList.incrList(a, 3).first);
-		System.out.println(IntList.incrList(a, 3).next.first);
-		System.out.println(IntList.incrList(a, 3).next.next.first);
-
-		a = new IntList(4,null);
-		a = new IntList(5, a);
-		a = new IntList(7, a);
-		IntList.decrList(a, 4);
-		System.out.println(a.first);
-		System.out.println(a.next.first);
-		System.out.println(a.next.next.first);
-
-		a = new IntList(4,null);
-		a.addFirst(5);
+		a.addSquare(1);
+		a.addFirst(6);
 		a.addFirst(8);
+		a.addSquare(5);
 		System.out.println(a.first);
 		System.out.println(a.next.first);
 		System.out.println(a.next.next.first);
+		System.out.println(a.next.next.next.first);
+		System.out.println(a.next.next.next.next.first);
+		System.out.println(a.next.next.next.next.next.first);
+		System.out.println(a.next.next.next.next.next.next.first);
+		System.out.println(a.next.next.next.next.next.next.next.first);
+		System.out.println(a.next.next.next.next.next.next.next.next.first);
+		System.out.println(a.next.next.next.next.next.next.next.next.next.first);
+		System.out.println(a.next.next.next.next.next.next.next.next.next.next.first);
+
+
+
+
 	}
 }
