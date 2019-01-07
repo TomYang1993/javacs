@@ -1,6 +1,6 @@
 public class NBody {
 
-    public static String starField = "./images/starfield.jpg";
+    private static String starField = "./images/starfield.jpg";
 
     public static double readRadius(String path){
         In in = new In(path);
