@@ -24,12 +24,13 @@ public class TestSort {
 
         String[] input2 = {"i", "ate", "lots", "of", "eggs"};
         int expected2 = 1;
-        int actual2 = Sort.findSmallest(input2);
+        int actual2 = Sort.findSmallest(input2, 0);
         org.junit.Assert.assertEquals(expected2, actual2);
     }
 
     public static void main(String[] args) {
         testFindSmallest();
+        testSort();
     }
 
 }
