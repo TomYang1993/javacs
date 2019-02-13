@@ -4,11 +4,13 @@ public class Dog implements Comparable<Dog>{
 
     String name;
     int size;
+    private String secret;
 
 
-    public Dog(String name, int size){
+    public Dog(String name, int size, String s){
         this.name = name;
         this.size = size;
+        this.secret = s;
     }
 
     public void bark() {
