@@ -1,6 +1,6 @@
 import org.junit.Test;
 
-import static junit.framework.TestCase.assertEquals;
+import static junit.framework.TestCase.*;
 
 public class TestPalindrome {
     // You must use this palindrome, and not instantiate
@@ -15,5 +15,19 @@ public class TestPalindrome {
             actual += d.removeFirst();
         }
         assertEquals("persiflage", actual);
+    }
+
+    @Test
+    public void testIsPalindrome() {
+
+        assertFalse(palindrome.isPalindrome("catc"));
+        assertTrue(palindrome.isPalindrome("caac"));
+    }
+
+    @Test
+    public void testIsPalindromeEdge() {
+
+        assertTrue(palindrome.isPalindrome("a"));
+        assertTrue(palindrome.isPalindrome(""));
     }
 }
