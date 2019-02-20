@@ -30,4 +30,14 @@ public class TestPalindrome {
         assertTrue(palindrome.isPalindrome("a"));
         assertTrue(palindrome.isPalindrome(""));
     }
+
+    @Test
+    public void testIsPalindromeOverloading() {
+        CharacterComparator cc = new OffByOne();
+        assertTrue(palindrome.isPalindrome("ab", cc));
+        assertTrue(palindrome.isPalindrome("", cc));
+        assertFalse(palindrome.isPalindrome("abcba", cc));
+        assertTrue(palindrome.isPalindrome("gdseh", cc));
+
+    }
 }
