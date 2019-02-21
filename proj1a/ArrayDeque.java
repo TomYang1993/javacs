@@ -32,8 +32,8 @@ public class ArrayDeque<T>{
 	private void resize(){
 		T[] resizedArray = (T[])new Object[items.length * 2];
 		System.arraycopy(items, 0, resizedArray, 0, nextFirst + 1);
-		if(nextFirst + 1 != items.length){
-			System.arraycopy(items, nextFirst + 1, resizedArray, nextFirst + 1, resizedArray.length - nextFirst - 1);
+		if((nextFirst + 1) != items.length){
+			System.arraycopy(items, nextFirst + 1, resizedArray, items.length + nextFirst + 1, items.length - nextFirst - 1);
 		}
 		items = resizedArray;
 		nextFirst = nextFirst + resizedArray.length / 2;
@@ -71,6 +71,7 @@ public class ArrayDeque<T>{
 	public T removeFirst(){
 		if(isEmpty()){
 			System.out.println("Deque is empty");
+			return null;
 		}
 		if(nextFirst >= items.length){
 			nextFirst = 0;
@@ -102,14 +103,14 @@ public class ArrayDeque<T>{
 		ArrayDeque<Integer> target = new ArrayDeque<>();
 		target.addFirst(3);
 		target.addFirst(5);
-		target.addLast(1);
+//		target.addLast(1);
 		target.addFirst(11);
-		target.addLast(8);
+//		target.addLast(8);
 		target.addFirst(4);
 		target.addFirst(7);
 		target.addFirst(14);
-//		target.addFirst(24);
-//		target.addFirst(56);
+		target.addFirst(24);
+		target.addFirst(56);
 //		target.addFirst(100);
 //
 //		target.removeFirst(100);
@@ -119,7 +120,7 @@ public class ArrayDeque<T>{
 //		target.removeLast(100);
 //		target.removeLast(100);
 //
-//		target.printDeque();
+		target.printDeque();
 	}
 
 
