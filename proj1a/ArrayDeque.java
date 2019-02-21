@@ -6,7 +6,7 @@ public class ArrayDeque<genType>{
 	private int nextLast = 5;
 
 
-	private ArrayDeque(){
+	public ArrayDeque(){
 		items = (genType[])new Object[8];
 		size = 0;
 	}
@@ -68,7 +68,7 @@ public class ArrayDeque<genType>{
 		size += 1;
 	}
 
-	public genType removeFirst(genType x){
+	public genType removeFirst(){
 		if(isEmpty()){
 			System.out.println("Deque is empty");
 		}
@@ -82,7 +82,7 @@ public class ArrayDeque<genType>{
 		return result;
 	}
 
-	public genType removeLast(genType x){
+	public genType removeLast(){
 		if(isEmpty()){
 			System.out.println("Deque is empty");
 		}
@@ -93,7 +93,7 @@ public class ArrayDeque<genType>{
 		items[nextLast - 1] = null;
 		nextLast -= 1;
 		size = size - 1;
-		return result;
+		return (genType)result;
 	}
 
 
