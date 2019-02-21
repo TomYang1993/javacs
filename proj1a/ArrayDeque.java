@@ -1,17 +1,17 @@
-public class ArrayDeque<genType>{
+public class ArrayDeque<T>{
 
-	private genType[] items;
+	private T[] items;
 	private int size;
 	private int nextFirst = 4;
 	private int nextLast = 5;
 
 
 	public ArrayDeque(){
-		items = (genType[])new Object[8];
+		items = (T[])new Object[8];
 		size = 0;
 	}
 
-	public genType get(int index){
+	public T get(int index){
 		return items[index];
 	}
 
@@ -24,13 +24,13 @@ public class ArrayDeque<genType>{
 	}
 
 	public void printDeque(){
-		for(genType item: items){
+		for(T item: items){
 			System.out.print(item + " ");
 		}
 	}
 
 	private void resize(){
-		genType[] resizedArray = (genType[])new Object[items.length * 2];
+		T[] resizedArray = (T[])new Object[items.length * 2];
 		System.arraycopy(items, 0, resizedArray, 0, nextFirst + 1);
 		if(nextFirst + 1 != items.length){
 			System.arraycopy(items, nextFirst + 1, resizedArray, nextFirst + 1, resizedArray.length - nextFirst - 1);
@@ -39,7 +39,7 @@ public class ArrayDeque<genType>{
 		nextFirst = nextFirst + resizedArray.length / 2;
 	}	
 
-	public void addFirst(genType x){
+	public void addFirst(T x){
 		if(nextFirst == -1){
 			nextFirst = items.length - 1;
 		}
@@ -53,7 +53,7 @@ public class ArrayDeque<genType>{
 		size += 1;
 	}
 
-	public void addLast(genType x){
+	public void addLast(T x){
 
 		if(nextLast == items.length + 1){
 			nextLast = 0;
@@ -68,35 +68,36 @@ public class ArrayDeque<genType>{
 		size += 1;
 	}
 
-	public genType removeFirst(){
+	public T removeFirst(){
 		if(isEmpty()){
 			System.out.println("Deque is empty");
 		}
 		if(nextFirst >= items.length){
 			nextFirst = 0;
 		}
-		genType result = items[nextFirst + 1];
+		T result = items[nextFirst + 1];
 		items[nextFirst + 1] = null;
 		nextFirst += 1;
 		size = size - 1;
 		return result;
 	}
 
-	public genType removeLast(){
+	public T removeLast(){
 		if(isEmpty()){
 			System.out.println("Deque is empty");
+			return null;
 		}
 		if(nextLast < 0){
 			nextLast = items.length - 1;
 		}
-		genType result = items[nextLast - 1];
+		T result = items[nextLast - 1];
 		items[nextLast - 1] = null;
 		nextLast -= 1;
 		size = size - 1;
-		return (genType)result;
+		return (T)result;
 	}
 
-
+//
 	public static void main(String[] args) {
 		ArrayDeque<Integer> target = new ArrayDeque<>();
 		target.addFirst(3);
@@ -107,18 +108,18 @@ public class ArrayDeque<genType>{
 		target.addFirst(4);
 		target.addFirst(7);
 		target.addFirst(14);
-		target.addFirst(24);
-		target.addFirst(56);
-		target.addFirst(100);
-
+//		target.addFirst(24);
+//		target.addFirst(56);
+//		target.addFirst(100);
+//
 //		target.removeFirst(100);
 //		target.removeFirst(100);
 //		target.removeFirst(100);
 //		target.removeFirst(100);
 //		target.removeLast(100);
 //		target.removeLast(100);
-
-		target.printDeque();
+//
+//		target.printDeque();
 	}
 
 
