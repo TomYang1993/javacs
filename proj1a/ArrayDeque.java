@@ -98,31 +98,4 @@ public class ArrayDeque<T>{
 		return (T)result;
 	}
 
-//
-	public static void main(String[] args) {
-		ArrayDeque<Integer> target = new ArrayDeque<>();
-		target.addFirst(3);
-		target.addFirst(5);
-//		target.addLast(1);
-		target.addFirst(11);
-//		target.addLast(8);
-		target.addFirst(4);
-		target.addFirst(7);
-		target.addFirst(14);
-		target.addFirst(24);
-		target.addFirst(56);
-//		target.addFirst(100);
-//
-//		target.removeFirst(100);
-//		target.removeFirst(100);
-//		target.removeFirst(100);
-//		target.removeFirst(100);
-//		target.removeLast(100);
-//		target.removeLast(100);
-//
-		target.printDeque();
-	}
-
-
-
 }
