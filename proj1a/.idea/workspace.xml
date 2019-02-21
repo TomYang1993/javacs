@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5c3802e-e49b-4168-bd58-08a1ba2b1099" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/ArrayDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedListDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListDeque.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ArrayDeque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+            <state relative-caret-position="440">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="e#242#243#0" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
@@ -34,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedListDeque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-797">
-              <caret column="37" selection-start-column="29" selection-end-column="37" />
+            <state relative-caret-position="517">
+              <caret line="112" column="23" lean-forward="true" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -45,6 +46,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>genType</find>
+      <find>Nodetype</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -53,6 +55,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/LinkedListDeque.java" />
         <option value="$PROJECT_DIR$/ArrayDeque.java" />
       </list>
     </option>
@@ -86,7 +89,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550786136991" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550786607255" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -141,12 +144,12 @@
       <workItem from="1547605190394" duration="10000" />
       <workItem from="1547605236285" duration="2003000" />
       <workItem from="1550625388327" duration="22000" />
-      <workItem from="1550782870850" duration="2758000" />
+      <workItem from="1550782870850" duration="3350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4793000" />
+    <option name="totallyTimeSpent" value="5385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
@@ -160,9 +163,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17720208" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -188,30 +191,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ArrayDeque.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ArrayDeque.java</url>
-          <line>112</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ArrayDeque.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/out/production/proj1a/ArrayDeque.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -224,15 +203,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedListDeque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-797">
-          <caret column="37" selection-start-column="29" selection-end-column="37" />
+        <state relative-caret-position="517">
+          <caret line="112" column="23" lean-forward="true" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ArrayDeque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        <state relative-caret-position="440">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="e#242#243#0" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />

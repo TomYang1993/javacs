@@ -55,7 +55,7 @@ public class ArrayDeque<T>{
 
 	public void addLast(T x){
 
-		if(nextLast == items.length + 1){
+		if(nextLast == items.length){
 			nextLast = 0;
 		}
 
