@@ -2,11 +2,11 @@ public class ArrayDeque<T>{
 
 	private T[] items;
 	private int size;
-	private int nextFirst = 4;
-	private int nextLast = 5;
+	private int nextFirst = 3;
+	private int nextLast = 4;
 
 
-	public ArrayDeque(){
+	public ArrayDeque() {
 		items = (T[])new Object[8];
 		size = 0;
 	}

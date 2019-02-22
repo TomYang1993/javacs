@@ -15,6 +15,7 @@ public class ArrayDequeTest {
         target.addLast(24);
         target.addLast(56);
 
+        int r1 = target.get(0);
 //		target.addFirst(100);
 //		target.removeFirst(100);
 //		target.removeFirst(100);
@@ -37,6 +38,24 @@ public class ArrayDequeTest {
         target.addFirst(14);
         target.addFirst(24);
         target.addFirst(56);
+        target.printDeque();
+
+    }
+
+    @Test
+    public void testResizeNull() {
+        ArrayDeque<Integer> target = new ArrayDeque<>();
+        target.addFirst(3);
+        target.addFirst(5);
+        target.addFirst(11);
+        target.addFirst(4);
+        target.addFirst(7);
+        target.addFirst(14);
+        target.addFirst(24);
+        target.addFirst(56);
+        target.addFirst(6);
+        int r1 = target.removeFirst();
+        int r2 = target.removeLast();
         target.printDeque();
 
     }

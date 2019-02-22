@@ -3,9 +3,6 @@ import org.junit.Test;
 /** Performs some basic linked list tests. */
 public class LinkedListDequeTest {
 
-
-
-
 	@Test
 	public void testAddFirst() {
 		LinkedListDeque<Integer> intList = new LinkedListDeque<>();
@@ -34,7 +31,7 @@ public class LinkedListDequeTest {
 	}
 
 	@Test
-	public void testRemoveLast() {
+	public void testRandom() {
 		LinkedListDeque<Integer> intList = new LinkedListDeque<>();
 		intList.addFirst(4);
 		intList.addFirst(4);

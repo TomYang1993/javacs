@@ -66,6 +66,7 @@ public class LinkedListDeque<T> {
 		result = sentinel.next.item;
 		sentinel.next = sentinel.next.next;
 		size -= 1;
+		// track last pointer
 		if(size == 0) {
 			last = sentinel;
 			sentinel.prev = sentinel;

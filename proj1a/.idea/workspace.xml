@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5c3802e-e49b-4168-bd58-08a1ba2b1099" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ArrayDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayDequeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayDequeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedListDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListDeque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedListDequeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListDequeTest.java" afterDir="false" />
     </list>
@@ -23,35 +25,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ArrayDeque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArrayDequeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedListDeque.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="135" selection-start-line="135" selection-end-line="135" />
+            <state relative-caret-position="428">
+              <caret line="91" column="40" lean-forward="true" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LinkedListDequeTest.java">
+        <entry file="file://$PROJECT_DIR$/ArrayDequeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            <state relative-caret-position="563">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -77,10 +61,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ArrayDeque.java" />
-        <option value="$PROJECT_DIR$/ArrayDequeTest.java" />
-        <option value="$PROJECT_DIR$/LinkedListDeque.java" />
         <option value="$PROJECT_DIR$/LinkedListDequeTest.java" />
+        <option value="$PROJECT_DIR$/LinkedListDeque.java" />
+        <option value="$PROJECT_DIR$/ArrayDequeTest.java" />
+        <option value="$PROJECT_DIR$/ArrayDeque.java" />
       </list>
     </option>
   </component>
@@ -114,7 +98,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550866717411" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550868735014" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -134,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListDeque">
+  <component name="RunManager" selected="JUnit.ArrayDequeTest.testResizeNull">
     <configuration name="ArrayDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayDeque" />
       <module name="proj1a" />
@@ -159,10 +143,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayDequeTest.testResizeNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj1a" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayDequeTest" />
+      <option name="METHOD_NAME" value="testResizeNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedListDeque" />
+        <item itemvalue="JUnit.ArrayDequeTest.testResizeNull" />
         <item itemvalue="JUnit.ArrayDequeTest.testAddLast" />
+        <item itemvalue="Application.LinkedListDeque" />
         <item itemvalue="Application.ArrayDeque" />
       </list>
     </recent_temporary>
@@ -181,7 +176,7 @@
       <workItem from="1547605236285" duration="2003000" />
       <workItem from="1550625388327" duration="22000" />
       <workItem from="1550782870850" duration="4239000" />
-      <workItem from="1550851080107" duration="7095000" />
+      <workItem from="1550851080107" duration="9388000" />
     </task>
     <servers />
   </component>
@@ -189,9 +184,24 @@
     <history-entry file="ArrayDequeTest_testAddLast - 2019.02.21 at 17h 10m 28s.xml">
       <configuration name="ArrayDequeTest.testAddLast" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ArrayDequeTest_testAddLast - 2019.02.22 at 15h 23m 11s.xml">
+      <configuration name="ArrayDequeTest.testAddLast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayDequeTest_testAddLast - 2019.02.22 at 15h 39m 04s.xml">
+      <configuration name="ArrayDequeTest.testAddLast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayDequeTest_testAddLast - 2019.02.22 at 15h 39m 12s.xml">
+      <configuration name="ArrayDequeTest.testAddLast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayDequeTest_testResizeNull - 2019.02.22 at 15h 41m 01s.xml">
+      <configuration name="ArrayDequeTest.testResizeNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayDequeTest_testResizeNull - 2019.02.22 at 15h 49m 25s.xml">
+      <configuration name="ArrayDequeTest.testResizeNull" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13369000" />
+    <option name="totallyTimeSpent" value="15662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -206,7 +216,7 @@
     <frame x="-1920" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.19595315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.19595315" />
       <window_info id="Structure" order="1" sideWeight="0.50086355" side_tool="true" weight="0.19595315" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -216,7 +226,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17720208" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.27150258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
@@ -242,6 +252,36 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ArrayDequeTest.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ArrayDequeTest.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ArrayDequeTest.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ArrayDequeTest.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/out/production/proj1a/ArrayDeque.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -252,31 +292,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArrayDeque.java">
+    <entry file="file://$PROJECT_DIR$/LinkedListDequeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArrayDequeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="420">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedListDeque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        <state relative-caret-position="450">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedListDequeTest.java">
+    <entry file="file://$PROJECT_DIR$/ArrayDeque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="428">
+          <caret line="91" column="40" lean-forward="true" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDequeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
