@@ -1,5 +1,49 @@
+import org.junit.Test;
+
 /** Performs some basic linked list tests. */
 public class LinkedListDequeTest {
+
+
+
+
+	@Test
+	public void testAddFirst() {
+		LinkedListDeque<Integer> intList = new LinkedListDeque<>();
+		intList.addFirst(6);
+		intList.addFirst(29);
+		intList.addFirst(5);
+		intList.addFirst(4);
+		intList.addFirst(4);
+		intList.addFirst(4);
+		intList.addFirst(4);
+		intList.addFirst(4);
+		intList.printDeque();
+	}
+
+	@Test
+	public void testRemoveFirst() {
+		LinkedListDeque<Integer> intList = new LinkedListDeque<>();intList.addLast(1);
+		intList.removeFirst();
+		intList.addLast(1);
+		intList.addLast(1);
+		intList.addLast(2);
+		intList.addLast(3);
+		intList.addLast(4);
+		intList.removeFirst();
+		intList.printDeque();
+	}
+
+	@Test
+	public void testRemoveLast() {
+		LinkedListDeque<Integer> intList = new LinkedListDeque<>();
+		intList.addFirst(4);
+		intList.addFirst(4);
+		intList.get(2);
+		intList.addLast(1);
+		int r1  =intList.removeFirst();
+		int r2  =intList.removeLast();
+		int r3  = intList.removeFirst();
+	}
 	
 	/* Utility method for printing out empty checks. */
 	public static boolean checkEmpty(boolean expected, boolean actual) {
