@@ -43,6 +43,7 @@ public class LinkedListDeque<T> {
 	public void addFirst(T x){
 		sentinel.next = new LinkedNode(x, sentinel, sentinel.next);
 		sentinel.next.next.prev = sentinel.next;
+		// trace last when only one item in the list and then removed
 		if(size == 0) {
 			last = sentinel.next;
 		}
@@ -133,8 +134,8 @@ public class LinkedListDeque<T> {
 	}
 
 
-	public static void main(String[] args){
-		LinkedListDeque<Integer> intList = new LinkedListDeque<>();
+//	public static void main(String[] args){
+//		LinkedListDeque<Integer> intList = new LinkedListDeque<>();
 //		intList.addFirst(6);
 //		intList.addFirst(29);
 //		intList.addFirst(5);
@@ -163,10 +164,10 @@ public class LinkedListDeque<T> {
 //		System.out.println(intList.getFirst());
 //		System.out.println(intList.getLast());
 //		intList.printDeque();
-		intList.addFirst(4);
-		System.out.println(intList.getRecursive(0));
+//		intList.addFirst(4);
+//		System.out.println(intList.getRecursive(0));
 //		System.out.println(intList.get(2));
 
-	}
+//	}
 
 }
