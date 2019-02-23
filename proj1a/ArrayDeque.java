@@ -2,8 +2,8 @@ public class ArrayDeque<T>{
 
 	private T[] items;
 	private int size;
-	private int nextFirst = 3;
-	private int nextLast = 4;
+	private int nextFirst = 0;
+	private int nextLast = 1;
 
 
 	public ArrayDeque() {
