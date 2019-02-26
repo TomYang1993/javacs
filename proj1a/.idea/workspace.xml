@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5c3802e-e49b-4168-bd58-08a1ba2b1099" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ArrayDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayDeque.java" afterDir="false" />
-    </list>
+    <list default="true" id="d5c3802e-e49b-4168-bd58-08a1ba2b1099" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +170,7 @@
       <workItem from="1550625388327" duration="22000" />
       <workItem from="1550782870850" duration="4239000" />
       <workItem from="1550851080107" duration="10592000" />
-      <workItem from="1550948466853" duration="149000" />
+      <workItem from="1550948466853" duration="316000" />
     </task>
     <servers />
   </component>
@@ -197,7 +195,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17015000" />
+    <option name="totallyTimeSpent" value="17182000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -209,10 +207,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.14802982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.1988555" />
       <window_info id="Structure" order="1" sideWeight="0.50086355" side_tool="true" weight="0.19595315" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
