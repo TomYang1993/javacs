@@ -25,7 +25,11 @@ public class TestArrayRingBuffer {
 //        }
 
         for(double i : arb){
+            for(double j : arb){
             System.out.println(i);
+                System.out.println("line breaker here");
+                System.out.println(j);
+            }
         }
 
     }

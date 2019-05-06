@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d392b160-bfd5-48e3-ac5b-8c50e2b5fc1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/synthesizer/AbstractBoundedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/synthesizer/AbstractBoundedQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/synthesizer/ArrayRingBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/synthesizer/ArrayRingBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/synthesizer/BoundedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/synthesizer/BoundedQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/synthesizer/TestArrayRingBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/synthesizer/TestArrayRingBuffer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/synthesizer/AbstractBoundedQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="150">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="e#157#158#0" expanded="true" />
                 <element signature="e#188#189#0" expanded="true" />
@@ -51,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/synthesizer/ArrayRingBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="77" column="5" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="-783">
+              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding>
                 <element signature="e#1845#1846#0" expanded="true" />
                 <element signature="e#1890#1891#0" expanded="true" />
@@ -66,31 +66,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/synthesizer/TestArrayRingBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="365">
+              <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
               <folding>
-                <element signature="e#827#828#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/synthesizer/GuitarString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/synthesizer/TestGuitarString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,36 +83,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GuitarHeroLite.java.skeleton">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="83" lean-forward="true" selection-start-line="7" selection-start-column="83" selection-end-line="7" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/synthesizer/GuitarPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="140" selection-start-line="140" selection-end-line="140" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TTFAF.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="33" column="88" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -154,14 +103,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/synthesizer/AbstractBoundedQueue.java" />
         <option value="$PROJECT_DIR$/synthesizer/GuitarPlayer.java" />
         <option value="$PROJECT_DIR$/TTFAF.java" />
         <option value="$PROJECT_DIR$/synthesizer/TestGuitarString.java" />
         <option value="$PROJECT_DIR$/synthesizer/GuitarHeroLite.java" />
         <option value="$PROJECT_DIR$/synthesizer/GuitarString.java" />
-        <option value="$PROJECT_DIR$/synthesizer/ArrayRingBuffer.java" />
         <option value="$PROJECT_DIR$/synthesizer/BoundedQueue.java" />
+        <option value="$PROJECT_DIR$/synthesizer/AbstractBoundedQueue.java" />
+        <option value="$PROJECT_DIR$/synthesizer/ArrayRingBuffer.java" />
         <option value="$PROJECT_DIR$/synthesizer/TestArrayRingBuffer.java" />
       </list>
     </option>
@@ -200,7 +149,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557102849258" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557104013472" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -309,26 +258,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557020036256</updated>
-      <workItem from="1557020038685" duration="17578000" />
+      <workItem from="1557020038685" duration="18598000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGuitarString_testTic - 2019.05.05 at 14h 09m 39s.xml">
-      <configuration name="TestGuitarString.testTic" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGuitarString_testPluckTheAString - 2019.05.05 at 14h 27m 42s.xml">
-      <configuration name="TestGuitarString.testPluckTheAString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGuitarString_testPluckTheAString - 2019.05.05 at 14h 28m 55s.xml">
-      <configuration name="TestGuitarString.testPluckTheAString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGuitarString_testPluckTheAString - 2019.05.05 at 14h 29m 03s.xml">
-      <configuration name="TestGuitarString.testPluckTheAString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGuitarString_testPluckTheAString - 2019.05.05 at 14h 29m 10s.xml">
-      <configuration name="TestGuitarString.testPluckTheAString" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestGuitarString_testPluckTheAString - 2019.05.05 at 14h 29m 22s.xml">
       <configuration name="TestGuitarString.testPluckTheAString" configurationId="JUnit" />
     </history-entry>
@@ -344,9 +278,24 @@
     <history-entry file="TestArrayRingBuffer_someTest - 2019.05.05 at 20h 29m 22s.xml">
       <configuration name="TestArrayRingBuffer.someTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestArrayRingBuffer_someTest - 2019.05.05 at 20h 34m 09s.xml">
+      <configuration name="TestArrayRingBuffer.someTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArrayRingBuffer_someTest - 2019.05.05 at 20h 34m 11s.xml">
+      <configuration name="TestArrayRingBuffer.someTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArrayRingBuffer_someTest - 2019.05.05 at 20h 42m 31s.xml">
+      <configuration name="TestArrayRingBuffer.someTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArrayRingBuffer_someTest - 2019.05.05 at 20h 42m 32s.xml">
+      <configuration name="TestArrayRingBuffer.someTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArrayRingBuffer_someTest - 2019.05.05 at 20h 45m 27s.xml">
+      <configuration name="TestArrayRingBuffer.someTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17578000" />
+    <option name="totallyTimeSpent" value="18598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
@@ -357,18 +306,18 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5026624" side_tool="true" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5037274" side_tool="true" visible="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49733758" weight="0.32953367" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.4968051" weight="0.32953367" />
-      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49733758" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49627262" visible="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49733758" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Style Checker" order="12" />
@@ -459,6 +408,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/synthesizer/TestGuitarString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synthesizer/GuitarString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/synthesizer/GuitarHeroLite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -469,15 +435,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/synthesizer/ArrayRingBuffer.java">
+    <entry file="file://$PROJECT_DIR$/synthesizer/AbstractBoundedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1890#1891#0" expanded="true" />
-            <element signature="e#2045#2046#0" expanded="true" />
-            <element signature="e#2079#2080#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -495,42 +461,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/synthesizer/AbstractBoundedQueue.java">
+    <entry file="file://$PROJECT_DIR$/synthesizer/ArrayRingBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="-783">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/synthesizer/GuitarString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/synthesizer/TestGuitarString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1890#1891#0" expanded="true" />
+            <element signature="e#2045#2046#0" expanded="true" />
+            <element signature="e#2079#2080#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/synthesizer/TestArrayRingBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="365">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
           <folding>
-            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
           </folding>
         </state>
       </provider>
