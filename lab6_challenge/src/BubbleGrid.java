@@ -55,5 +55,4 @@ public class BubbleGrid {
         int[] dart = new int[]{2,2};
         int fallingBubbleNum = grid.popBubbles(dart, charGrid);
     }
-
 }

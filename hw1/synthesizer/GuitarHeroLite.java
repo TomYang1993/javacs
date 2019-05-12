@@ -14,7 +14,7 @@ public class GuitarHeroLite {
         double[] fre= new double[37];
         GuitarString[] notes = new GuitarString[37];
         for(int i = 0; i< keyboard.length(); i++) {
-            fre[i] = 440.0 * Math.pow(2, (i - 24) / 12.0);
+            fre[i] = 1200.0 * Math.pow(2, (i - 24) / 12.0);
             notes[i] = new synthesizer.GuitarString(fre[i]);
         }
 
