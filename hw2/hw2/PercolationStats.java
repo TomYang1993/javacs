@@ -1,18 +1,20 @@
 package hw2;
 
-
 import edu.princeton.cs.introcs.StdRandom;
 import edu.princeton.cs.introcs.StdStats;
 
 public class PercolationStats {
-    double[] fractions;
+    private double mean;
+    private double stddev;
+    private double confidenceLow;
+    private double confidenceHigh;
 
     public PercolationStats(int N, int T, PercolationFactory pf) {
         if(N <= 0 || T <= 0){
             throw new IllegalArgumentException("Illegal T and N!");
         }
 
-        fractions = new double[40];
+        double[] fractions = new double[40];
         for(int i = 0; i < fractions.length; i++) {
             pf = new PercolationFactory();
             Percolation percolate = pf.make(N);
@@ -25,22 +27,25 @@ public class PercolationStats {
             fractions[i] = percolate.numberOfOpenSites();
         }
 
-
+        mean = StdStats.mean(fractions);
+        stddev = StdStats.stddev(fractions);
+        confidenceLow = mean - 1.96 * stddev / Math.sqrt(T);
+        confidenceHigh = mean + 1.96 * stddev / Math.sqrt(T);
     }
-    public double mean(double[] fractions){
-        return StdStats.mean(fractions);
+    public double mean(){
+        return mean;
     }
 
-    public double stddev(double[] fractions){
-        return StdStats.stddev(fractions);
+    public double stddev(){
+        return stddev;
     }
 
-    public double confidenceLow(double[] fractions, int T)  {
-        return mean(fractions) - 1.96 * stddev(fractions) / Math.sqrt(T) ;
+    public double confidenceLow()  {
+        return confidenceLow;
     }
 
     public double confidenceHigh(double[] fractions, int T) {
-        return mean(fractions) + 1.96 * stddev(fractions) / Math.sqrt(T) ;
+        return confidenceHigh;
     }
 
     public static void main(String[] args){
