@@ -15,6 +15,7 @@ public class Percolation {
     private int secondTop = rowLength*rowLength;
 
     private int getIndex(int row, int col){
+        validateIJ(row, col);
         return row * rowLength + col;
     }
 
@@ -51,7 +52,7 @@ public class Percolation {
             }
 
             if(row == rowLength - 1){
-                wuf.union(getIndex(row,col), bottom);
+                wuf.union(index, bottom);
             }
 
             for(int[] d: direction) {
@@ -89,7 +90,6 @@ public class Percolation {
     }
 
     public static void main(String[] args) {
-        Percolation percolate = new Percolation(0);
     }
 
 
