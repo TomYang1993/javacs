@@ -10,8 +10,8 @@ public class Percolation {
     private WeightedQuickUnionUF wufTop;
     private int rowLength;
     private static final int[][] direction = {{1,0},{0,-1},{-1,0},{0,1}};
-    private int top = rowLength*rowLength;
-    private int bottom = rowLength*rowLength + 1;
+    private int top;
+    private int bottom;
 
     private int getIndex(int row, int col){
         validateIJ(row, col);
@@ -35,6 +35,8 @@ public class Percolation {
            grid[i] = false;
         }
         rowLength = N;
+        top = rowLength*rowLength;
+        bottom = rowLength*rowLength + 1;
 
     }
 
@@ -55,8 +57,8 @@ public class Percolation {
             }
 
             for(int[] d: direction) {
-                int orthodoxRow = row + d[1];
-                int orthodoxCol = col + d[0];
+                int orthodoxRow = row + d[0];
+                int orthodoxCol = col + d[1];
                 if(orthodoxRow >=0 && orthodoxRow < rowLength && orthodoxCol >= 0 && orthodoxCol < rowLength && isOpen(orthodoxRow, orthodoxCol)){
                     wuf.union(index, getIndex(orthodoxRow, orthodoxCol));
                     wufTop.union(index, getIndex(orthodoxRow, orthodoxCol));
