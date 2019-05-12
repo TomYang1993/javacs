@@ -12,7 +12,6 @@ public class Percolation {
     private static final int[][] direction = {{1,0},{0,-1},{-1,0},{0,1}};
     private int top = rowLength*rowLength;
     private int bottom = rowLength*rowLength + 1;
-    private int secondTop = rowLength*rowLength;
 
     private int getIndex(int row, int col){
         validateIJ(row, col);
@@ -48,7 +47,7 @@ public class Percolation {
 
             if(row == 0){
                 wuf.union(index, top);
-                wufTop.union(index, secondTop);
+                wufTop.union(index, top);
             }
 
             if(row == rowLength - 1){
@@ -75,7 +74,7 @@ public class Percolation {
     public boolean isFull(int row, int col) {
         if(isOpen(row, col)){
             int index = getIndex(row, col);
-            return wufTop.connected(index, secondTop);
+            return wufTop.connected(index, top);
         }else{
             return false;
         }
@@ -86,7 +85,7 @@ public class Percolation {
     }
 
     public boolean percolates() {
-        return wuf.connected(top, bottom);
+        return numberOfOpenSites() > 0 && wuf.connected(top, bottom);
     }
 
     public static void main(String[] args) {
