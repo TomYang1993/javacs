@@ -16,7 +16,6 @@ public class PercolationStats {
 
         double[] fractions = new double[40];
         for(int i = 0; i < fractions.length; i++) {
-            pf = new PercolationFactory();
             Percolation percolate = pf.make(N);
             while(!percolate.percolates()){
                 int indexOfOpen = StdRandom.uniform(N*N);
@@ -47,9 +46,5 @@ public class PercolationStats {
     public double confidenceHigh() {
         return confidenceHigh;
     }
-
-    public static void main(String[] args){
-
-    }
-
+    
 }
