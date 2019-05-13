@@ -14,7 +14,7 @@ public class PercolationStats {
             throw new IllegalArgumentException("Illegal T and N!");
         }
 
-        double[] fractions = new double[40];
+        double[] fractions = new double[T];
         for(int i = 0; i < fractions.length; i++) {
             Percolation percolate = pf.make(N);
             while(!percolate.percolates()){
@@ -46,5 +46,5 @@ public class PercolationStats {
     public double confidenceHigh() {
         return confidenceHigh;
     }
-    
+
 }
