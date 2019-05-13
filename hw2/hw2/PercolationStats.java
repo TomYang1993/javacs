@@ -44,7 +44,7 @@ public class PercolationStats {
         return confidenceLow;
     }
 
-    public double confidenceHigh(double[] fractions, int T) {
+    public double confidenceHigh() {
         return confidenceHigh;
     }
 
