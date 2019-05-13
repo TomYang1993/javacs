@@ -61,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hw2/PercolationStats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="375">
+              <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1375#1376#0" expanded="true" />
@@ -193,12 +193,12 @@
       <workItem from="1557625944030" duration="6491000" />
       <workItem from="1557674543794" duration="9983000" />
       <workItem from="1557710266231" duration="171000" />
-      <workItem from="1557710440111" duration="287000" />
+      <workItem from="1557710440111" duration="470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16932000" />
+    <option name="totallyTimeSpent" value="17115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="0" />
@@ -283,8 +283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hw2/PercolationStats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="375">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1375#1376#0" expanded="true" />

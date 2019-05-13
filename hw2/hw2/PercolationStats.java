@@ -23,7 +23,7 @@ public class PercolationStats {
                 int row = (indexOfOpen - col) / N;
                 percolate.open(row, col);
             }
-            fractions[i] = percolate.numberOfOpenSites();
+            fractions[i] = percolate.numberOfOpenSites() / (double)(N * N);
         }
 
         mean = StdStats.mean(fractions);
